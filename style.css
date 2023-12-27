@@ -127,7 +127,7 @@ body{
 .boxes{
     display: flex;
     gap: 50px;
-    
+    flex-wrap: wrap;
 }
 
 .box{
@@ -172,4 +172,41 @@ body{
     font-size: 18px;
     font-weight: 900;
     padding:15px
+}
+
+.forth{
+    display: flex;
+    justify-content: center;
+    padding:50px;
+}
+
+.forth-content{
+    width: 1025px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.forth-content .btn{
+    display:flex;
+    align-items: center;
+}
+
+.call-to-action-title{
+    color: #F9FAF8;
+}
+
+.call-to-action-btn{
+    width: 130px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-size: 18px;
+    border: 2px solid #F9FAF8;  
+    font-weight: bold;
 }
